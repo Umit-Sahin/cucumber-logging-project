@@ -27,7 +27,7 @@ public class Google_StepDefinitions {
     public void user_is_on_the_google_search_page() {
         log.info("Navigating to https://www.google.com");
         Driver.getDriver().get("https://www.google.com");
-        googleSearchPage.rejectCookieButton.click();
+//        googleSearchPage.rejectCookieButton.click();
         BrowserUtils.sleep(1);
     }
 
